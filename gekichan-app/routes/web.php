@@ -6,5 +6,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'] );
 Route::get('/threads', [ThreadsController::class]);
-
-Route::resource('threads',  App\Http\Controllers\ThreadsController::class );
+Route::get('/threads/composer/{composer}', [ThreadsController::class,'index']);

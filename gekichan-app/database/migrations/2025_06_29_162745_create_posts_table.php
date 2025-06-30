@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
             $table->foreignId('thread_id')->constrained('threads')->onDelete('cascade');
             $table->text('body');
+            $table->integer('likes')->default(0);
             $table->timestamps();
         });
     }
