@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>劇ch-ホーム</title>
+</head>
+<body>
+    <h1>ようこそ,劇chへ!!</h1>
+    <li>
+        <ul>劇伴について語る</ul>
+        <ul>おすすめの作品</ul>
+        <ul>今月のライブ情報</ul>
+        <ul>あの作品のこのシーンで流れてた曲は何？</ul>
+    </li>
+</body>
+</html>
