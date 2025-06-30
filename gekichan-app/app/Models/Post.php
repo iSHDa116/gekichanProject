@@ -15,13 +15,5 @@ class Post extends Model
         "body",
     ];
 
-    //リレーション・・・カラムとテーブルの関係を定義する
-    public function posts(){
 
-        return $this->hasMany(Post::class);
-    }
-
-    public function user(){
-        return $this->belongsTo(User::class);
-    }
 }
